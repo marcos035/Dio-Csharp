@@ -7,6 +7,7 @@ namespace intro.Models
 {
     public class Pessoa
     {
+     
        public string Nome { get; set; } 
        public int Idade {get; set;}
 
@@ -15,7 +16,7 @@ namespace intro.Models
         public void Apresentar()
        {
 
-        Console.WriteLine($"Ola, meu nome é {Nome}, e tenho {Idade} anos");
+        Console.WriteLine($"Ola, meu nome é {Nome}, e tenho {Idade} anos"  + " " + DateTime.Today);
 
        }
 
