@@ -5,26 +5,26 @@ using System.Threading.Tasks;
 
 namespace intro.Models
 {
-    public class Pessoa
-    {
+    // public class Pessoa
+    // {
      
-       public string Nome { get; set; } 
-       public int Idade {get; set;}
+    //    public string Nome { get; set; } 
+    //    public int Idade {get; set;}
 
-       public string Cidade { get; set; }
-       public string Habitantes { get; set; }
-        public void Apresentar()
-       {
+    //    public string Cidade { get; set; }
+    //    public string Habitantes { get; set; }
+    //     public void Apresentar()
+    //    {
 
-        Console.WriteLine($"Ola, meu nome é {Nome}, e tenho {Idade} anos"  + " " + DateTime.Today);
+    //     Console.WriteLine($"Ola, meu nome é {Nome}, e tenho {Idade} anos"  + " " + DateTime.Today);
 
-       }
+    //    }
 
-       public void Morar()
-       {
+    //    public void Morar()
+    //    {
 
        
-            Console.WriteLine($"Ola, meu nome é {Nome}, e tenho {Idade} anos, moro na {Cidade} com {Habitantes} Habitantes");
-       }
-    }
+    //         Console.WriteLine($"Ola, meu nome é {Nome}, e tenho {Idade} anos, moro na {Cidade} com {Habitantes} Habitantes");
+    //    }
+    // }
 }
