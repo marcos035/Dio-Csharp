@@ -1,30 +1,60 @@
 ﻿using intro.Models;
   
-        Console.WriteLine("digite uma letra");
-        string letra = Console.ReadLine();
+        
+bool maiorDezoito= true;
+bool menorDezoito = false;
 
-        switch (letra)
-        {
-            case "a":
-            case "e":
-            case "i":
-            case "o":
-            case "u":
-                Console.WriteLine("vogal");
-                break;
-            default:
-                Console.WriteLine("não é vogal");
-                break;
-        }
+if(maiorDezoito || menorDezoito){
+
+    Console.WriteLine("Venda Liberada");
+
+}else{
+    Console.WriteLine("Proibido entrar");
+}
+        
+        
+bool presencaMin = true;
+
+double notaMedia = 9;
+
+if(presencaMin && notaMedia >=7){
+Console.WriteLine("aprovado");
+
+}else{
+    Console.WriteLine("reprovasco");
+
+}
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        // Console.WriteLine("digite uma letra");
+        // string letra = Console.ReadLine();
+
+        // switch (letra)
+        // {
+        //     case "a":
+        //     case "e":
+        //     case "i":
+        //     case "o":
+        //     case "u":
+        //         Console.WriteLine("vogal");
+        //         break;
+        //     default:
+        //         Console.WriteLine("não é vogal");
+        //         break;
+        // }
     
-
-
-
-
-
-
-
-
 
 
 
